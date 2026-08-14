@@ -6,3 +6,5 @@
 - [x] Save a corrected deployment checkpoint.
 
 - [x] Fix ZIP deployment failure: uploaded source does not include `scripts/prepare-esbuild.mjs`, so the build must not depend on an external scripts directory.
+
+- [x] Fix Hostinger EACCES: the build now targets `@esbuild/linux-x64/bin/esbuild`, so Vite can start.
