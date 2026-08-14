@@ -12,3 +12,11 @@
 - [x] Fix Hostinger build error: the inline esbuild API rejects `server/_core/index.ts` as external; use the package wrapper invocation instead.
 
 - [x] Fix Hostinger `Could not resolve "./server/_core/index.ts"` by matching the uploaded source structure and build entry path.
+
+- [x] Make the 9XM layout and fixed player mobile friendly at phone widths.
+- [x] Add a visible buffering/loading animation tied to YouTube player state.
+- [x] Add a dark-mode toggle inside the player interface with persisted preference.
+- [x] Verify desktop and mobile screenshots, build, and tests before checkpoint.
+
+- [x] Run the post-change test suite after the mobile, buffering, and dark-mode changes.
+- [x] Re-mark verification complete after build, desktop/mobile screenshots, and tests are all evidenced.
