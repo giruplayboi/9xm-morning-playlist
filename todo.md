@@ -20,3 +20,6 @@
 
 - [x] Run the post-change test suite after the mobile, buffering, and dark-mode changes.
 - [x] Re-mark verification complete after build, desktop/mobile screenshots, and tests are all evidenced.
+
+- [x] Fix the player night-mode toggle so clicks reliably change the theme and persist the state.
+- [x] Verify the toggle on desktop and mobile, then save a corrected checkpoint.
