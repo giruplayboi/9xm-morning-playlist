@@ -10,3 +10,5 @@
 - [x] Fix Hostinger EACCES: the build now targets `@esbuild/linux-x64/bin/esbuild`, so Vite can start.
 
 - [x] Fix Hostinger build error: the inline esbuild API rejects `server/_core/index.ts` as external; use the package wrapper invocation instead.
+
+- [x] Fix Hostinger `Could not resolve "./server/_core/index.ts"` by matching the uploaded source structure and build entry path.
