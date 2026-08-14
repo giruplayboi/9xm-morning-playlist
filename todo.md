@@ -23,3 +23,14 @@
 
 - [x] Fix the player night-mode toggle so clicks reliably change the theme and persist the state.
 - [x] Verify the toggle on desktop and mobile, then save a corrected checkpoint.
+
+- [x] Add a responsive footer credit linking “Developed by Girish Naik” to https://girishnaik.live.
+- [x] Add background-play support through Media Session metadata/actions and avoid pausing user playback on visibility changes where the browser permits.
+- [x] Verify the updated build, tests, responsive render, and player lifecycle before checkpoint.
+
+- [x] Make the background-play path explicit with Media Session playback state updates and browser-platform limitation handling.
+- [x] Inspect fresh browser/runtime logs after the player lifecycle changes.
+- [x] Re-mark final verification complete after build, tests, responsive screenshots, and lifecycle checks are evidenced.
+
+- [x] Capture fresh desktop and mobile screenshots after the final Media Session/background-play lifecycle changes.
+- [x] Re-mark final verification complete after the final screenshots and clean runtime-log check.
