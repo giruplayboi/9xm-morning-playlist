@@ -8,3 +8,5 @@
 - [x] Fix ZIP deployment failure: uploaded source does not include `scripts/prepare-esbuild.mjs`, so the build must not depend on an external scripts directory.
 
 - [x] Fix Hostinger EACCES: the build now targets `@esbuild/linux-x64/bin/esbuild`, so Vite can start.
+
+- [x] Fix Hostinger build error: the inline esbuild API rejects `server/_core/index.ts` as external; use the package wrapper invocation instead.
