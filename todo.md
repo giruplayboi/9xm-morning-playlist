@@ -1,5 +1,8 @@
-# Bug-fix checklist
+# Enhancement checklist
 
-- [x] Inspect the failing `syncTrack` callback and identify the missing DOM element.
-- [x] Patch the metadata update path so YouTube callbacks cannot throw on absent elements.
-- [x] Verify the page loads without the reported exception and save a corrected checkpoint.
+- [x] Inspect the existing player controls, playlist configuration, and visible count label.
+- [x] Add volume control and mute/unmute behavior.
+- [x] Remove the visible music-count label while preserving track metadata.
+- [x] Switch to the requested playlist URL and enable randomized playback.
+- [x] Determine a truthful live-listener implementation for the current static project.
+- [x] Verify the updated page and save a corrected checkpoint.
